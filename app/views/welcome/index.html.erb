@@ -1,2 +1,36 @@
-<h1>Welcome my Photo App</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+
+<div class="jumbotron text-center splash">
+  <h1>Jumbotron with Image Overlay</h1>
+  <p class="lead">Image taken from <a href="https://unsplash.com/photos/iIg4F2IWbTM" target="_blank">Unsplash.com</a></p>
+</div>
+<div class="price d-flex">
+  <div class="first">
+    <h2>Premium Plan</h2>
+      Price : 10$
+     <ul>
+     <li>Unlimited Image Uploads</li>
+     <li>Responsive design</li>
+     <li>Access anywhere</li>
+
+     </ul>
+       <%= link_to "Sign up", new_registration_path(User) ,class: "btn  btn-success" %><br />
+
+  </div>
+  <div class="second mx-5">
+     <h2>Amaze Plan</h2>
+     Price : 20$
+     <ul>
+     <li>Unlimited Image Uploads</li>
+     <li>Responsive design</li>
+     <li>Access anywhere</li>
+     <li>Unlimited Projects</li>
+
+     </ul>
+            <%= link_to "Sign up", new_registration_path(User) ,class: "btn btn-success" %><br />
+
+  </div>
+</div>
+
+<footer>
+ @Copyright renu vishwakarma
+</footer>

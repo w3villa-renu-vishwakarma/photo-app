@@ -14,6 +14,7 @@ gem "sqlite3", "~> 1.4"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
+gem 'letter_opener'
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
@@ -32,7 +33,7 @@ gem "jsbundling-rails"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 gem "devise"
-gem 'devise-bootstrap-views'
+gem 'devise-bootstrapped'
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
